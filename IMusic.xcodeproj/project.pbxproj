@@ -36,6 +36,7 @@
 		F07926CB230BFABC0007982A /* CMTime + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07926CA230BFABC0007982A /* CMTime + Extension.swift */; };
 		F0A6D9C32326A89A001259CF /* UserDafaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A6D9C22326A89A001259CF /* UserDafaults.swift */; };
 		F0A6D9C62326AE79001259CF /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = F0A6D9C52326AE79001259CF /* URLImage */; };
+		F9A6ECE72F2FB7210007C3D1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F9A6ECE62F2FB7210007C3D1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		F05B752B2302092C0086B117 /* UIViewController + Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Storyboard.swift"; sourceTree = "<group>"; };
 		F07926CA230BFABC0007982A /* CMTime + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime + Extension.swift"; sourceTree = "<group>"; };
 		F0A6D9C22326A89A001259CF /* UserDafaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDafaults.swift; sourceTree = "<group>"; };
+		F9A6ECE62F2FB7210007C3D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				F027F2902300740600AE2985 /* Assets.xcassets */,
 				F027F2922300740600AE2985 /* LaunchScreen.storyboard */,
 				F027F2952300740600AE2985 /* Info.plist */,
+				F9A6ECE62F2FB7210007C3D1 /* README.md */,
 			);
 			path = IMusic;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				F027F2942300740600AE2985 /* LaunchScreen.storyboard in Resources */,
 				F045904123032E4C00040A0C /* TrackCell.xib in Resources */,
 				F027F2912300740600AE2985 /* Assets.xcassets in Resources */,
+				F9A6ECE72F2FB7210007C3D1 /* README.md in Resources */,
 				F05B752A2302076F0086B117 /* SearchViewController.storyboard in Resources */,
 				F045904A2304740400040A0C /* TrackDetailView.xib in Resources */,
 				F027F28F2300740500AE2985 /* Main.storyboard in Resources */,
@@ -320,9 +324,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IMusic/Pods-IMusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IMusic/Pods-IMusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
